@@ -58,6 +58,15 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+
+    implementation("androidx.compose.ui:ui:1.5.0")
+    implementation("androidx.compose.material3:material3:1.1.1")
+    implementation("androidx.compose.material:material-icons-core:1.5.0")
+    implementation("androidx.compose.material:material-icons-extended:1.5.0")
+    implementation("androidx.activity:activity-compose:1.7.2")
+
     implementation(files("libs/IntegracaoSafra-v2.5.5.aar"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
